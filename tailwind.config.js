@@ -21,9 +21,14 @@ export default {
   VeryDarkBlueGradient : 'hsl(237, 17%, 21%)',
   VeryDarkDesaturatedBlue : 'hsl(237, 23%, 32%)',
 
-
     },
+
+    
     extend: {
+      backgroundImage: {
+        'hero-pattern':
+          "linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%))",
+     },
     },
     fontFamily: {
       Overpass: ['Overpass'],
