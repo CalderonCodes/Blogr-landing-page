@@ -1,11 +1,11 @@
+import Navbar from "./Components/Navigation/Navbar";
 
 function App() {
-
   return (
     <>
-      <h1 className="bg-VeryLightRed">React App</h1>
+      <Navbar />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

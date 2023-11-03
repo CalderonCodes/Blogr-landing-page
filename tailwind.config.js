@@ -26,7 +26,9 @@ export default {
     extend: {
     },
     fontFamily: {
-      Epilogue: ['Epilogue']
+      Overpass: ['Overpass'],
+      
+      Ubuntu: ['Ubuntu']
     }
   },
   plugins: [require("daisyui")],
