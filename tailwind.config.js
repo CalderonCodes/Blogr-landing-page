@@ -4,6 +4,10 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    minWidth: {
+      '1/2': '50%',
+    },
+
     colors: {
 
   LightRed : 'hsl(356, 100%, 66%)',
