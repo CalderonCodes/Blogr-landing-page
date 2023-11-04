@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../../Components/Navigation/Navbar";
 import Button from "../../Components/Buttons/Button";
 import OutlineButton from "../../Components/Buttons/OutlineButton";
+import Footer from "../../Components/Footer/Footer";
 
 function Home() {
   const [isMobile, setIsMobile] = useState(false);
@@ -68,28 +69,56 @@ function Home() {
           categories, sections, format, or flow. With this functionality, you’re
           in full control.
         </p>
-        
-        
-
       </div>
-      
+
       <div className="h-[85vh] relative flex flex-col items-center rounded-bl-[7.5rem] rounded-tr-[7.5rem] bg-VeryDarkDesaturatedBlue">
-    
-        <img className="absolute bottom-[45vh] " src="/src/assets/illustration-phones.svg" alt="" />
+        <img
+          className="absolute bottom-[45vh] "
+          src="/src/assets/illustration-phones.svg"
+          alt=""
+        />
         <div className="relative top-[40vh] text-White font-Overpass">
-        <h1 className="text-5xl font-bold text-center px-5">
+          <h1 className="text-5xl font-bold text-center px-5">
+            {" "}
+            State of the Art Infrastructure{" "}
+          </h1>
+          <p className="px-10 py-5 text-center font-medium text-lg">
+            With reliability and speed in mind, worldwide data centers provide
+            the backbone for ultra-fast connectivity. This ensures your site
+            will load instantly, no matter where your readers are, keeping your
+            site competitive.
+          </p>
+        </div>
+      </div>
+
+      <div className="flex flex-col items-center relative justify-center min-h-screen font-Overpass text-VeryDarkBlue pt-16 pb-16">
+        <img
+          src="/src/assets/illustration-laptop-mobile.svg"
+          alt="laptop-mobile"
+          className="my-10 w-11/12"
+        />
+        <h1 className="text-3xl font-bold text-center px-5">
           {" "}
-          State of the Art Infrastructure{" "}
+          Free, open, simple{" "}
         </h1>
-        <p className="px-10 py-5 text-center font-medium text-lg">
-        With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
-  This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
-
+        <p className="px-10 py-5 text-center text-VeryDarkGrayishBlue font-medium text-lg">
+          Blogr is a free and open source application backed by a large
+          community of helpful developers. It supports features such as code
+          syntax highlighting, RSS feeds, social media integration, third-party
+          commenting tools, and works seamlessly with Google Analytics. The
+          architecture is clean and is relatively easy to learn.
         </p>
-        </div>
-
-        </div>
-
+        <h1 className="text-3xl font-bold text-center px-5">
+          {" "}
+          Powerful tooling{" "}
+        </h1>
+        <p className="px-10 py-5 text-center text-VeryDarkGrayishBlue font-medium text-lg">
+          Batteries included. We built a simple and straightforward CLI tool
+          that makes customization and deployment a breeze, but capable of
+          producing even the most complicated sites.
+        </p>
+      </div>
+      <Footer/>
     </div>
   );
 }
