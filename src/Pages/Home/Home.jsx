@@ -148,6 +148,7 @@ function Home() {
         </div>
       </section2>
       <Footer />
+      
     </div>
   );
 }
