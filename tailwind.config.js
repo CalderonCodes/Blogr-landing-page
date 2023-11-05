@@ -7,6 +7,9 @@ export default {
     minWidth: {
       '1/2': '50%',
     },
+    minHeight: {
+      '8/10': '85%',
+    },
 
     colors: {
 

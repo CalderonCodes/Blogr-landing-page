@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div className="navbar bg-transparent font-Overpass font-bold lg:flex text-White pt-8  px-5 lg:px-32">
+    <div className="navbar z-30 bg-transparent font-Overpass font-bold lg:flex text-White pt-8  px-5 lg:px-32">
   <div className="flex-1">
   <img className="w-24 h-10" src='/src/assets/logo.svg' />
     
