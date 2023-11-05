@@ -23,8 +23,8 @@ function Home() {
   return (
     <div className="min-h-screen h-screen">
       <header className="static overflow-hidden rounded-bl-[10rem] bg-hero-pattern lg:h-4/6 h-[85vh] items-center flex flex-col  w-full">
-        <div className="absolute rounded-bl-[10rem z-10 lg:h-4/6 h-[85vh] items-center flex flex-col  w-full"
-        style={{ backgroundImage: 'url(src/assets/bg-pattern-intro-desktop.svg)',  backgroundSize: '200%', backgroundPosition: '25% 52%' , backgroundRepeat:'no-repeat' }}>
+        <div className="absolute rounded-bl-[10rem] z-10 lg:h-4/6 h-[85vh] lg:bg-intro-desktop bg-intro-mobile bg-intro-mobile-size lg:bg-intro-desktop-size bg-intro-mobile-position opacity-60   lg:bg-intro-desktop-position items-center flex flex-col  w-full"
+        >
 
         </div>
         <Navbar />
@@ -84,12 +84,11 @@ function Home() {
       </section1>
 
       <structure className="h-[90vh] lg:h-1/2 relative flex flex-col lg:flex-row items-center rounded-bl-[7.5rem] rounded-tr-[7.5rem] bg-gradient-to-r from-VeryDarkBlueGradient to-VeryDarkDesaturatedBlue">
-        <div className="w-full absolute h-full z-10  rounded-bl-[7.5rem] rounded-tr-[7.5rem]"
-        style={{ backgroundImage: 'url(src/assets/bg-pattern-circles.svg)',  backgroundSize: '70%', backgroundPosition: '-50% 85%' , backgroundRepeat:'no-repeat' }}
+        <div className="w-full absolute h-full z-10  rounded-bl-[7.5rem] rounded-tr-[7.5rem] bg-no-repeat bg-structure lg:bg-structure-desktop-size lg:bg-structure-desktop-position bg-structure-mobile-size bg-structure-mobile-position"
         >
           
         </div>
-        <img
+        <img  
           className="absolute bottom-[45vh] lg:hidden z-10"
           src="/src/assets/illustration-phones.svg"
           alt=""

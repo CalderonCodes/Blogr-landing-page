@@ -35,7 +35,24 @@ export default {
       backgroundImage: {
         'hero-pattern':
           "linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%))",
+          'intro-mobile': 'url(src/assets/bg-pattern-intro-mobile.svg)',
+        'intro-desktop': 'url(src/assets/bg-pattern-intro-desktop.svg)',
+        'structure':'url(src/assets/bg-pattern-circles.svg)',
      },
+     backgroundSize: {
+      'intro-desktop-size': '200%',
+      'intro-mobile-size': '300%',
+      'structure-desktop-size': '70%',
+      'structure-mobile-size': '100%',
+     },
+
+     backgroundPosition: {
+      'intro-desktop-position': '25% 52%',
+      'intro-mobile-position': '35% 40%',
+      'structure-desktop-position': '-50% 85%',
+      'structure-mobile-position': '-50% -50%',
+     },
+
     },
     fontFamily: {
       Overpass: ['Overpass'],
