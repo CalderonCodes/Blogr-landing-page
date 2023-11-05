@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="w-full relative rounded-tr-[8rem] lg:flex-row lg:items-start lg:px-40 lg:py-10 text-lg text-White font-Overpass flex flex-col items-center py-8 bg-VeryDarkBlackBlue">
-      <img className="w-24 h-10 my-8" src="assets/logo.svg" />
+      <img className="w-24 h-10 my-8" src="src/assets/logo.svg" />
       
       <div className="w-1/2  flex flex-col items-center">
         <h1 className="pb-6 pt-8 font-bold">Product</h1>
