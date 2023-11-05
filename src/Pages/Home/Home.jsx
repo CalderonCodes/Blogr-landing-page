@@ -5,20 +5,6 @@ import OutlineButton from "../../Components/Buttons/OutlineButton";
 import Footer from "../../Components/Footer/Footer";
 
 function Home() {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 1440);
-    };
-
-    window.addEventListener("resize", handleResize);
-    handleResize();
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
 
   return (
     <div className="min-h-screen h-screen">

@@ -35,9 +35,9 @@ export default {
       backgroundImage: {
         'hero-pattern':
           "linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%))",
-          'intro-mobile': 'url(src/assets/bg-pattern-intro-mobile.svg)',
-        'intro-desktop': 'url(src/assets/bg-pattern-intro-desktop.svg)',
-        'structure':'url(src/assets/bg-pattern-circles.svg)',
+          'intro-mobile': 'url(assets/bg-pattern-intro-mobile.svg)',
+        'intro-desktop': 'url(assets/bg-pattern-intro-desktop.svg)',
+        'structure':'url(assets/bg-pattern-circles.svg)',
      },
      backgroundSize: {
       'intro-desktop-size': '200%',
